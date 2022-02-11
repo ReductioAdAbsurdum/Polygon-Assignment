@@ -10,9 +10,9 @@ namespace LogicCL
         /// <param name="point"></param>
         /// <returns></returns>
         /// <exception cref="InvalidOperationException"></exception>
-        public static bool isInside(Polygon polygon, Vector2D point) 
+        public static bool IsInside(Polygon polygon, Vector2D point) 
         {
-            Vector2D[] vertices = polygon.getVertices();
+            Vector2D[] vertices = polygon.GetVertices();
             if (vertices.Contains(point)) 
             {
                 return true;
@@ -24,7 +24,7 @@ namespace LogicCL
                 throw new InvalidOperationException("Invalid polygon");
             }
 
-            bool goalOrentation = orentation(vertices[0], vertices[1], point);
+            bool goalOrentation = Orentation(vertices[0], vertices[1], point);
 
 
             for (int i = 1; i < vertices.Length; i++)
@@ -40,7 +40,7 @@ namespace LogicCL
                     secund = vertices[i + 1];
                 }
 
-                if (goalOrentation != orentation(first, secund, point)) 
+                if (goalOrentation != Orentation(first, secund, point)) 
                 {
                     return false;
                 }
@@ -56,7 +56,7 @@ namespace LogicCL
         /// <param name="secund"></param>
         /// <param name="point"></param>
         /// <returns></returns>
-        private static bool orentation(Vector2D first, Vector2D secund, Vector2D point)
+        private static bool Orentation(Vector2D first, Vector2D secund, Vector2D point)
         {
             return secund.Subtract(first).CrossProductSing(point.Subtract(first));
         }
