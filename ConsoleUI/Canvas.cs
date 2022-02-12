@@ -12,8 +12,8 @@ namespace ConsoleUI
 
         public Canvas()
         {
-            Console.WindowHeight = 30;    
-            Console.WindowWidth = 60;
+            Console.WindowHeight = 60;    
+            Console.WindowWidth = 120;
             Console.Clear();
         }
 
@@ -29,10 +29,10 @@ namespace ConsoleUI
         {
             Console.ForegroundColor = color;
 
-            Console.CursorTop = (int)Math.Floor(point.Y * 14) + 14;
-            Console.CursorLeft = (int)Math.Floor(point.X * 29) + 29;
+            Console.CursorTop = (int)Math.Floor(point.Y * 14) + 20;
+            Console.CursorLeft = (int)Math.Floor(point.X * 29) + 44;
             Console.Write('█');
-            Console.CursorLeft = (int)Math.Floor(point.X * 29) + 30;
+            Console.CursorLeft = (int)Math.Floor(point.X * 29) + 45;
             Console.Write('█');
         }
     }
