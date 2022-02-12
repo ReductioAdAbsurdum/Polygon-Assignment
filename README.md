@@ -10,10 +10,10 @@ Naime svaka tačka koja se nalazi unutar konveksnog mnogougla ima osobinu da se 
 Drugim rečima ukoliko bi se kretali u jednom smeru duž ivica mnogougla tačke unutar njega bi nam uvek bile sa jedne strane.
 Određivanje sa koje se strane tačka nalazi se svodi na znak vektorskog prozvoda (*AB* x *AP*) gde je *AB* vektor jedne od stranica dok je *AP* vektor od početka te stranice pa do ispitivane taćke.
 
-Pošao sam od pretpostavke da su ivice mnogougla u opštem slučaju unošene nasumično kako bih sebi jos malo otažao život. 
+Pošao sam od pretpostavke da su ivice mnogougla u opštem slučaju unošene nasumično kako bih sebi jos malo otežao život. 
 Tako da je prvi korak bio sortiranje temena mnogougla u matematicki pozitivnom smeru kako bih uopšte mogao da konstruišem ivice.
 
-Nakon sortiranja linearna provera da su svi znaci vektorskog proizvoda svi istog znaka je odrađena na već objašnjen način.
+Nakon sortiranja linearna provera da su svi znaci vektorskog proizvoda istog znaka je odrađena na već objašnjen način (*u linearnom vremenu*).
 
 Pripremio sam jedan DEMO koji će funkcionisati samo na Widows platformi i verujem da je VS22 potreban.
 
