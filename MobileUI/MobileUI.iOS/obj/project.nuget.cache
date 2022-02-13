@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "MmP59MC/7189hMmIWqUZVa6GENr4Tjtxf6meTNVhE6U69y5fhnnDkw0ewsdKbZm6PUZ44K6hszCJhNw673ALzA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Monster\\Desktop\\Dot in Polygon Project\\MobileUI\\MobileUI.iOS\\MobileUI.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Monster\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Monster\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Monster\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -58,7 +58,7 @@ static void Demo()
 
 
     Console.ForegroundColor = ConsoleColor.Blue;
-    canvas.DrawPolygon(Polygon.Rectangle);
+    canvas.DrawPolygon(Polygon.GetCustomPolygon(10_000));
 
     Console.ReadLine();
 }

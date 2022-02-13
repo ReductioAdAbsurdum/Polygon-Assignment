@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "580588b1-4b15-49fc-9763-f7880ad98232": {
+      "ProjectGuid": "580588b1-4b15-49fc-9763-f7880ad98232",
+      "DisplayName": "LogicCL",
+      "ColorIndex": 0
+    },
+    "1113e22c-b8ff-41d1-a114-05ac3b493ca4": {
+      "ProjectGuid": "1113e22c-b8ff-41d1-a114-05ac3b493ca4",
+      "DisplayName": "ConsoleUI",
+      "ColorIndex": 1
+    },
+    "2c0a38e6-e4b9-4433-9cef-f61d21d66879": {
+      "ProjectGuid": "2c0a38e6-e4b9-4433-9cef-f61d21d66879",
+      "DisplayName": "Vector2DTest",
+      "ColorIndex": 2
+    },
+    "1b131f45-9c73-4d8f-9a77-d4e46924b7d4": {
+      "ProjectGuid": "1b131f45-9c73-4d8f-9a77-d4e46924b7d4",
+      "DisplayName": "UnitTest",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "dae34227-a0f3-4c6c-9932-c82038621fc2": {
+      "ProjectGuid": "dae34227-a0f3-4c6c-9932-c82038621fc2",
+      "DisplayName": "MobileUI",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
