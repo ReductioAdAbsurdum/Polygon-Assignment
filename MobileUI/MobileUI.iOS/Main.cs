@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace MobileUI.iOS
+namespace PolygonApp.iOS
 {
     public class Application
     {

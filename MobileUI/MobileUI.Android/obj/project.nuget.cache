@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Q+N7GCkHvYVfd2z0nxiowtqnqj+KHC/dw60yoV0evsxWQqxI4pUOz/sHrHqXEfFlX6qbcr+2IurjqGYxCfEpKQ==",
+  "dgSpecHash": "T7IPUhVNDZCHgRebkadPUebXqpqY9JIORT06Ld4Tw+4grOr2c6svZM29mo+hGpkKIL+0s/SML2wJNQQAGo5eQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Monster\\Desktop\\Dot in Polygon Project\\MobileUI\\MobileUI.Android\\MobileUI.Android.csproj",
+  "projectFilePath": "C:\\Users\\Monster\\Desktop\\Polygon-Assignment\\MobileUI\\MobileUI.Android\\PolygonApp.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Monster\\.nuget\\packages\\skiasharp\\2.80.3\\skiasharp.2.80.3.nupkg.sha512",
+    "C:\\Users\\Monster\\.nuget\\packages\\skiasharp.views\\2.80.3\\skiasharp.views.2.80.3.nupkg.sha512",
+    "C:\\Users\\Monster\\.nuget\\packages\\skiasharp.views.forms\\2.80.3\\skiasharp.views.forms.2.80.3.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\xamarin.androidx.annotation\\1.2.0.1\\xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",

@@ -1,14 +1,31 @@
 {
   "version": 2,
-  "dgSpecHash": "vPJgMLUoPfoJI6algeY+RDh22NHk+AVDhNT3wuhp5hfwKcmaotU7HTZkkxXTxWkPY/5JTUjGWcdSJfcUH+bvCQ==",
+  "dgSpecHash": "i7XLbkCzq5VVGkAxqU635Eyi2INHLNUhCiSehW9fAMib8ufRMAoAzuWgt5ZPh72Ar2IysYT45Km8Us+vBPs4zA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Monster\\Desktop\\Dot in Polygon Project\\MobileUI\\MobileUI\\MobileUI.csproj",
+  "projectFilePath": "C:\\Users\\Monster\\Desktop\\Polygon-Assignment\\MobileUI\\MobileUI\\PolygonApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Monster\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Monster\\.nuget\\packages\\skiasharp\\2.80.3\\skiasharp.2.80.3.nupkg.sha512",
+    "C:\\Users\\Monster\\.nuget\\packages\\skiasharp.views\\2.80.3\\skiasharp.views.2.80.3.nupkg.sha512",
+    "C:\\Users\\Monster\\.nuget\\packages\\skiasharp.views.forms\\2.80.3\\skiasharp.views.forms.2.80.3.nupkg.sha512",
+    "C:\\Users\\Monster\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Monster\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Monster\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SkiaSharp.Views 2.80.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "SkiaSharp.Views",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

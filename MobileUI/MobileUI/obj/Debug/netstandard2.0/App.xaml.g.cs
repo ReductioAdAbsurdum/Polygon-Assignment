@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MobileUI.App.xaml", "App.xaml", typeof(global::MobileUI.App))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("PolygonApp.App.xaml", "App.xaml", typeof(global::PolygonApp.App))]
 
-namespace MobileUI {
+namespace PolygonApp {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("App.xaml")]

@@ -2,7 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace MobileUI
+namespace PolygonApp
 {
     public partial class App : Application
     {

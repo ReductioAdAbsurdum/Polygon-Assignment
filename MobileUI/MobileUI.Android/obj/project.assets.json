@@ -2,6 +2,62 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v12.0": {
+      "SkiaSharp/2.80.3": {
+        "type": "package",
+        "compile": {
+          "lib/monoandroid1.0/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid1.0/SkiaSharp.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid1.0/SkiaSharp.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win-arm64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "SkiaSharp.Views/2.80.3": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.80.3"
+        },
+        "compile": {
+          "lib/monoandroid1.0/SkiaSharp.Views.Android.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid1.0/SkiaSharp.Views.Android.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/2.80.3": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.80.3",
+          "SkiaSharp.Views": "2.80.3",
+          "Xamarin.Forms": "4.6.0.772"
+        },
+        "compile": {
+          "ref/monoandroid1.0/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid1.0/SkiaSharp.Views.Forms.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -1540,23 +1596,181 @@
           "buildTransitive/monoandroid50/Xamarin.Google.Guava.ListenableFuture.targets": {}
         }
       },
-      "MobileUI/1.0.0": {
+      "PolygonApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "SkiaSharp": "2.80.3",
+          "SkiaSharp.Views": "2.80.3",
+          "SkiaSharp.Views.Forms": "2.80.3",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
         },
         "compile": {
-          "bin/placeholder/MobileUI.dll": {}
+          "bin/placeholder/PolygonApp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MobileUI.dll": {}
+          "bin/placeholder/PolygonApp.dll": {}
         }
       }
     }
   },
   "libraries": {
+    "SkiaSharp/2.80.3": {
+      "sha512": "qX6tGNP3+MXNYe2pKm0PCRiJ/cx+LTeLaggwZifB7sUMXhECfKKKHJq45VqZKt37xQegnCCdf1jHXwmHeJQs5Q==",
+      "type": "package",
+      "path": "skiasharp/2.80.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/monoandroid1.0/SkiaSharp.targets",
+        "build/monoandroid1.0/arm/libSkiaSharp.so",
+        "build/monoandroid1.0/arm64/libSkiaSharp.so",
+        "build/monoandroid1.0/x64/libSkiaSharp.so",
+        "build/monoandroid1.0/x86/libSkiaSharp.so",
+        "build/net462/SkiaSharp.targets",
+        "build/tizen40/SkiaSharp.targets",
+        "build/tizen40/arm/libSkiaSharp.so",
+        "build/tizen40/x86/libSkiaSharp.so",
+        "build/xamarinios1.0/SkiaSharp.targets",
+        "build/xamarinios1.0/libSkiaSharp.framework/Info.plist",
+        "build/xamarinios1.0/libSkiaSharp.framework/Modules/module.modulemap",
+        "build/xamarinios1.0/libSkiaSharp.framework/_CodeSignature/CodeResources",
+        "build/xamarinios1.0/libSkiaSharp.framework/libSkiaSharp",
+        "build/xamarinmac2.0/SkiaSharp.targets",
+        "build/xamarintvos1.0/SkiaSharp.targets",
+        "build/xamarintvos1.0/libSkiaSharp.framework/Info.plist",
+        "build/xamarintvos1.0/libSkiaSharp.framework/Modules/module.modulemap",
+        "build/xamarintvos1.0/libSkiaSharp.framework/_CodeSignature/CodeResources",
+        "build/xamarintvos1.0/libSkiaSharp.framework/libSkiaSharp",
+        "build/xamarinwatchos1.0/SkiaSharp.targets",
+        "build/xamarinwatchos1.0/libSkiaSharp.framework/Info.plist",
+        "build/xamarinwatchos1.0/libSkiaSharp.framework/Modules/module.modulemap",
+        "build/xamarinwatchos1.0/libSkiaSharp.framework/_CodeSignature/CodeResources",
+        "build/xamarinwatchos1.0/libSkiaSharp.framework/libSkiaSharp",
+        "buildTransitive/monoandroid1.0/SkiaSharp.targets",
+        "buildTransitive/net462/SkiaSharp.targets",
+        "buildTransitive/tizen40/SkiaSharp.targets",
+        "buildTransitive/xamarinios1.0/SkiaSharp.targets",
+        "buildTransitive/xamarinmac2.0/SkiaSharp.targets",
+        "buildTransitive/xamarintvos1.0/SkiaSharp.targets",
+        "buildTransitive/xamarinwatchos1.0/SkiaSharp.targets",
+        "interactive-extensions/dotnet/SkiaSharp.DotNet.Interactive.dll",
+        "lib/monoandroid1.0/SkiaSharp.dll",
+        "lib/monoandroid1.0/SkiaSharp.xml",
+        "lib/net462/SkiaSharp.dll",
+        "lib/net462/SkiaSharp.xml",
+        "lib/netstandard1.3/SkiaSharp.dll",
+        "lib/netstandard1.3/SkiaSharp.xml",
+        "lib/netstandard2.0/SkiaSharp.dll",
+        "lib/netstandard2.0/SkiaSharp.xml",
+        "lib/tizen40/SkiaSharp.dll",
+        "lib/tizen40/SkiaSharp.xml",
+        "lib/uap10.0.10240/SkiaSharp.dll",
+        "lib/uap10.0.10240/SkiaSharp.xml",
+        "lib/uap10.0.16299/SkiaSharp.dll",
+        "lib/uap10.0.16299/SkiaSharp.xml",
+        "lib/xamarinios1.0/SkiaSharp.dll",
+        "lib/xamarinios1.0/SkiaSharp.xml",
+        "lib/xamarinmac2.0/SkiaSharp.dll",
+        "lib/xamarinmac2.0/SkiaSharp.xml",
+        "lib/xamarintvos1.0/SkiaSharp.dll",
+        "lib/xamarintvos1.0/SkiaSharp.xml",
+        "lib/xamarinwatchos1.0/SkiaSharp.dll",
+        "lib/xamarinwatchos1.0/SkiaSharp.xml",
+        "runtimes/osx/native/libSkiaSharp.dylib",
+        "runtimes/win-arm64/native/libSkiaSharp.dll",
+        "runtimes/win-x64/native/libSkiaSharp.dll",
+        "runtimes/win-x86/native/libSkiaSharp.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-arm64/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-arm64/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-arm64/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libSkiaSharp.dll",
+        "skiasharp.2.80.3.nupkg.sha512",
+        "skiasharp.nuspec"
+      ]
+    },
+    "SkiaSharp.Views/2.80.3": {
+      "sha512": "2KFwV6j/mUmrJU8YgRvsihn3J2UCPh2PyX97N+71CCLq1Uc85fZwR3D8LZf7/Ec5bOlSP+1Wk98gKcRrk4mMZg==",
+      "type": "package",
+      "path": "skiasharp.views/2.80.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/monoandroid1.0/SkiaSharp.Views.Android.dll",
+        "lib/monoandroid1.0/SkiaSharp.Views.Android.xml",
+        "lib/net462/SkiaSharp.Views.Desktop.dll",
+        "lib/net462/SkiaSharp.Views.Desktop.xml",
+        "lib/tizen40/SkiaSharp.Views.Tizen.dll",
+        "lib/tizen40/SkiaSharp.Views.Tizen.xml",
+        "lib/uap10.0/SkiaSharp.Views.UWP.dll",
+        "lib/uap10.0/SkiaSharp.Views.UWP.xml",
+        "lib/xamarinios1.0/SkiaSharp.Views.iOS.dll",
+        "lib/xamarinios1.0/SkiaSharp.Views.iOS.xml",
+        "lib/xamarinmac2.0/SkiaSharp.Views.Mac.dll",
+        "lib/xamarinmac2.0/SkiaSharp.Views.Mac.xml",
+        "lib/xamarintvos1.0/SkiaSharp.Views.tvOS.dll",
+        "lib/xamarintvos1.0/SkiaSharp.Views.tvOS.xml",
+        "lib/xamarinwatchos1.0/SkiaSharp.Views.watchOS.dll",
+        "lib/xamarinwatchos1.0/SkiaSharp.Views.watchOS.xml",
+        "runtimes/win10-arm/nativeassets/uap10.0/SkiaSharp.Views.Interop.UWP.dll",
+        "runtimes/win10-arm64/nativeassets/uap10.0/SkiaSharp.Views.Interop.UWP.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/SkiaSharp.Views.Interop.UWP.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/SkiaSharp.Views.Interop.UWP.dll",
+        "skiasharp.views.2.80.3.nupkg.sha512",
+        "skiasharp.views.nuspec"
+      ]
+    },
+    "SkiaSharp.Views.Forms/2.80.3": {
+      "sha512": "RLNIPW2o3zjCD+42ev/+iaOOgPCoXI4g7X89bADG/qp0tcUZngXvhGi6mqQgHOe1THaPSWib5vwSqdb3A1/aQA==",
+      "type": "package",
+      "path": "skiasharp.views.forms/2.80.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/net462/SkiaSharp.Views.Forms.targets",
+        "lib/monoandroid1.0/SkiaSharp.Views.Forms.dll",
+        "lib/monoandroid1.0/SkiaSharp.Views.Forms.xml",
+        "lib/net462/_._",
+        "lib/tizen40/SkiaSharp.Views.Forms.dll",
+        "lib/tizen40/SkiaSharp.Views.Forms.xml",
+        "lib/uap10.0/SkiaSharp.Views.Forms.dll",
+        "lib/uap10.0/SkiaSharp.Views.Forms.xml",
+        "lib/xamarinios1.0/SkiaSharp.Views.Forms.dll",
+        "lib/xamarinios1.0/SkiaSharp.Views.Forms.xml",
+        "lib/xamarinmac2.0/SkiaSharp.Views.Forms.dll",
+        "lib/xamarinmac2.0/SkiaSharp.Views.Forms.xml",
+        "ref/monoandroid1.0/SkiaSharp.Views.Forms.dll",
+        "ref/monoandroid1.0/SkiaSharp.Views.Forms.xml",
+        "ref/net462/_._",
+        "ref/netstandard1.3/SkiaSharp.Views.Forms.dll",
+        "ref/netstandard1.3/SkiaSharp.Views.Forms.xml",
+        "ref/netstandard2.0/SkiaSharp.Views.Forms.dll",
+        "ref/netstandard2.0/SkiaSharp.Views.Forms.xml",
+        "ref/tizen40/SkiaSharp.Views.Forms.dll",
+        "ref/tizen40/SkiaSharp.Views.Forms.xml",
+        "ref/uap10.0/SkiaSharp.Views.Forms.dll",
+        "ref/uap10.0/SkiaSharp.Views.Forms.xml",
+        "ref/xamarinios1.0/SkiaSharp.Views.Forms.dll",
+        "ref/xamarinios1.0/SkiaSharp.Views.Forms.xml",
+        "ref/xamarinmac2.0/SkiaSharp.Views.Forms.dll",
+        "ref/xamarinmac2.0/SkiaSharp.Views.Forms.xml",
+        "skiasharp.views.forms.2.80.3.nupkg.sha512",
+        "skiasharp.views.forms.nuspec"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -3158,15 +3372,15 @@
         "xamarin.google.guava.listenablefuture.nuspec"
       ]
     },
-    "MobileUI/1.0.0": {
+    "PolygonApp/1.0.0": {
       "type": "project",
-      "path": "../MobileUI/MobileUI.csproj",
-      "msbuildProject": "../MobileUI/MobileUI.csproj"
+      "path": "../MobileUI/PolygonApp.csproj",
+      "msbuildProject": "../MobileUI/PolygonApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v12.0": [
-      "MobileUI >= 1.0.0",
+      "PolygonApp >= 1.0.0",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196"
     ]
@@ -3177,11 +3391,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Monster\\Desktop\\Dot in Polygon Project\\MobileUI\\MobileUI.Android\\MobileUI.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Monster\\Desktop\\Polygon-Assignment\\MobileUI\\MobileUI.Android\\PolygonApp.Android.csproj",
       "projectName": "MobileUI.Android",
-      "projectPath": "C:\\Users\\Monster\\Desktop\\Dot in Polygon Project\\MobileUI\\MobileUI.Android\\MobileUI.Android.csproj",
+      "projectPath": "C:\\Users\\Monster\\Desktop\\Polygon-Assignment\\MobileUI\\MobileUI.Android\\PolygonApp.Android.csproj",
       "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Monster\\Desktop\\Dot in Polygon Project\\MobileUI\\MobileUI.Android\\obj\\",
+      "outputPath": "C:\\Users\\Monster\\Desktop\\Polygon-Assignment\\MobileUI\\MobileUI.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -3198,8 +3412,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\Users\\Monster\\Desktop\\Dot in Polygon Project\\MobileUI\\MobileUI\\MobileUI.csproj": {
-              "projectPath": "C:\\Users\\Monster\\Desktop\\Dot in Polygon Project\\MobileUI\\MobileUI\\MobileUI.csproj"
+            "C:\\Users\\Monster\\Desktop\\Polygon-Assignment\\MobileUI\\MobileUI\\PolygonApp.csproj": {
+              "projectPath": "C:\\Users\\Monster\\Desktop\\Polygon-Assignment\\MobileUI\\MobileUI\\PolygonApp.csproj"
             }
           }
         }

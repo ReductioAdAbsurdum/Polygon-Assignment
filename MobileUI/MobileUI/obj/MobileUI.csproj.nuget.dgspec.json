@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Monster\\Desktop\\Dot in Polygon Project\\MobileUI\\MobileUI\\MobileUI.csproj": {}
+    "C:\\Users\\Monster\\Desktop\\C# Projects\\PolygonApp\\PolygonApp\\MobileUI\\MobileUI\\MobileUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Monster\\Desktop\\Dot in Polygon Project\\MobileUI\\MobileUI\\MobileUI.csproj": {
+    "C:\\Users\\Monster\\Desktop\\C# Projects\\PolygonApp\\PolygonApp\\MobileUI\\MobileUI\\MobileUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Monster\\Desktop\\Dot in Polygon Project\\MobileUI\\MobileUI\\MobileUI.csproj",
+        "projectUniqueName": "C:\\Users\\Monster\\Desktop\\C# Projects\\PolygonApp\\PolygonApp\\MobileUI\\MobileUI\\MobileUI.csproj",
         "projectName": "MobileUI",
-        "projectPath": "C:\\Users\\Monster\\Desktop\\Dot in Polygon Project\\MobileUI\\MobileUI\\MobileUI.csproj",
+        "projectPath": "C:\\Users\\Monster\\Desktop\\C# Projects\\PolygonApp\\PolygonApp\\MobileUI\\MobileUI\\MobileUI.csproj",
         "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Monster\\Desktop\\Dot in Polygon Project\\MobileUI\\MobileUI\\obj\\",
+        "outputPath": "C:\\Users\\Monster\\Desktop\\C# Projects\\PolygonApp\\PolygonApp\\MobileUI\\MobileUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,18 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[2.80.3, )"
+            },
+            "SkiaSharp.Views": {
+              "target": "Package",
+              "version": "[2.80.3, )"
+            },
+            "SkiaSharp.Views.Forms": {
+              "target": "Package",
+              "version": "[2.80.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

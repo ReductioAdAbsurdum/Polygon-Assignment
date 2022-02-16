@@ -1,19 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MobileUI.MainPage">
+             xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"             
+             x:Class="PolygonApp.MainPage">
 
-    <StackLayout>
-        <Grid BackgroundColor="Aquamarine"
-              HorizontalOptions="Center"
-              VerticalOptions="Center">
-            <Label x:Name="Smrik"
-                   Text="kiriku"
-                   FontSize="100"
-                   HorizontalOptions="Center"
-                   VerticalOptions="Center"
-                   />
-        </Grid>
+    
+    <StackLayout 
+        VerticalOptions="End" 
+        HorizontalOptions="Center" 
+        BackgroundColor="DarkCyan"
+        Spacing="15"
+        x:Name="main_stackLayout">
+        
+
+        <StackLayout>
+            <skia:SKCanvasView Margin="0,0,0,30" x:Name="canvasView" 
+                               PaintSurface="canvasView_PaintSurface" WidthRequest="400" HeightRequest="450" 
+                               EnableTouchEvents="True" Touch="canvasView_Touch"
+                               />
+
+        </StackLayout>
+        <StackLayout Orientation ="Horizontal"                     
+                     HorizontalOptions="CenterAndExpand">
+            <Entry x:Name="xCoordinate_entry" Keyboard="Numeric"
+                   BackgroundColor="Transparent" PlaceholderColor="Black" TextColor="Black"
+                   WidthRequest="150" Placeholder="X:" />
+            <Entry x:Name="yCoordinate_entry" Keyboard="Numeric"
+                   BackgroundColor="Transparent" PlaceholderColor="Black" TextColor="Black"
+                   WidthRequest="150" Placeholder="Y:"/>
+        </StackLayout>
+        <StackLayout Orientation ="Horizontal"
+                     HorizontalOptions="CenterAndExpand">
+            <Button x:Name="dotMode_button" BackgroundColor="LightGray" Text="DOT" TextColor="Black" Clicked="dotMode_button_Clicked"
+                    BorderColor="Black" BorderWidth="1"/>
+            <Button x:Name="verticeMode_button" BackgroundColor="Yellow" Text="Vertice" TextColor="Black" Clicked="verticeMode_button_Clicked"
+                    BorderColor="Black" BorderWidth="1"/>
+        </StackLayout>
+
+        <Button x:Name="add_button" BackgroundColor="MediumPurple"  Text="Add" HeightRequest="80" WidthRequest="200" Margin="25,0,25,0" 
+                Clicked="add_button_Clicked" BorderColor="Black" BorderWidth="1"/>
+
+        <Button x:Name="clear_button" BackgroundColor="IndianRed" Text="Clear" HeightRequest="40" WidthRequest="200" Margin="100,0,100,30"
+                Clicked="clear_button_Clicked" BorderColor="Black" BorderWidth="1"/>
     </StackLayout>
 
 </ContentPage>
