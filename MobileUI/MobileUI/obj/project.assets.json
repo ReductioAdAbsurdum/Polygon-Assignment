@@ -840,11 +840,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Monster\\Desktop\\Polygon-Assignment\\MobileUI\\MobileUI\\PolygonApp.csproj",
+      "projectUniqueName": "C:\\Users\\Monster\\Desktop\\C# Projects\\Polygon-Assignment\\MobileUI\\MobileUI\\PolygonApp.csproj",
       "projectName": "PolygonApp",
-      "projectPath": "C:\\Users\\Monster\\Desktop\\Polygon-Assignment\\MobileUI\\MobileUI\\PolygonApp.csproj",
+      "projectPath": "C:\\Users\\Monster\\Desktop\\C# Projects\\Polygon-Assignment\\MobileUI\\MobileUI\\PolygonApp.csproj",
       "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Monster\\Desktop\\Polygon-Assignment\\MobileUI\\MobileUI\\obj\\",
+      "outputPath": "C:\\Users\\Monster\\Desktop\\C# Projects\\Polygon-Assignment\\MobileUI\\MobileUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Monster\\AppData\\Roaming\\NuGet\\NuGet.Config",

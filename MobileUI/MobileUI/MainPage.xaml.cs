@@ -21,10 +21,12 @@ namespace PolygonApp
         }
 
         private double canvasBorderX = 1070;
-        private double canvasBorderY = 1225;
+        private double canvasBorderY = 1310;
         private DrawMode drawMode = DrawMode.Vertice;
         private Polygon polygon = new Polygon();
+        private List<Vector2D> verticesHistory = new List<Vector2D>();
         private List<Vector2D> dots = new List<Vector2D>();
+
 
         public MainPage()
         {
@@ -46,30 +48,20 @@ namespace PolygonApp
 
             dotMode_button.BackgroundColor = Color.LightGray;
         }
-        private void add_button_Clicked(object sender, EventArgs e)
+
+        private void undo_button_Clicked(object sender, EventArgs e)
         {
-            if (double.TryParse(xCoordinate_entry.Text, out double x) && double.TryParse(yCoordinate_entry.Text, out double y))
+            int count = verticesHistory.Count;
+
+            if (count == 0) 
             {
-                if (x < 0 || y < 0 || x > canvasBorderX || y > canvasBorderY)
-                {
-                    return;
-                }
-
-                Vector2D entry = new Vector2D(x, y);
-
-                switch (drawMode)
-                {
-                    case DrawMode.Dot:
-                        dots.Add(entry);
-                        break;
-                    case DrawMode.Vertice:
-                        polygon.AddVertice(entry);
-                        break;
-
-                }
-
-                canvasView.InvalidateSurface();
+                return;
             }
+
+            polygon.RemoveVertice(verticesHistory[count - 1]);
+            verticesHistory.RemoveAt(count - 1);
+
+            canvasView.InvalidateSurface();
         }
         private void clear_button_Clicked(object sender, EventArgs e)
         {
@@ -167,22 +159,41 @@ namespace PolygonApp
                 return;
             }
 
-            Vector2D entry = new Vector2D(e.Location.X, e.Location.Y);
-
-            switch (drawMode)
-            {
-                case DrawMode.Dot:
-                    dots.Add(entry);
-                    break;
-                case DrawMode.Vertice:
-                    polygon.AddVertice(entry);
-                    break;
-
-            }
+            ProcessUserInput(new Vector2D(e.Location.X, e.Location.Y));
 
             canvasView.InvalidateSurface();
         }
+        private void add_button_Clicked(object sender, EventArgs e)
+        {
+            if (double.TryParse(xCoordinate_entry.Text, out double x) && double.TryParse(yCoordinate_entry.Text, out double y))
+            {
+                if (x < 0 || y < 0 || x > canvasBorderX || y > canvasBorderY)
+                {
+                    return;
+                }
 
-        
+                ProcessUserInput(new Vector2D(x, y));
+               
+
+                canvasView.InvalidateSurface();
+            }
+        }
+
+        private void ProcessUserInput(Vector2D location) 
+        {
+            switch (drawMode)
+            {
+                case DrawMode.Dot:
+                    dots.Add(location);
+                    break;
+                case DrawMode.Vertice:
+                    verticesHistory.Add(location);
+                    polygon.AddVertice(location);
+                    break;
+
+            }
+        }
+
+       
     }
 }

@@ -1330,11 +1330,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Monster\\Desktop\\Polygon-Assignment\\MobileUI\\MobileUI.iOS\\PolygonApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Monster\\Desktop\\C# Projects\\Polygon-Assignment\\MobileUI\\MobileUI.iOS\\PolygonApp.iOS.csproj",
       "projectName": "MobileUI.iOS",
-      "projectPath": "C:\\Users\\Monster\\Desktop\\Polygon-Assignment\\MobileUI\\MobileUI.iOS\\PolygonApp.iOS.csproj",
+      "projectPath": "C:\\Users\\Monster\\Desktop\\C# Projects\\Polygon-Assignment\\MobileUI\\MobileUI.iOS\\PolygonApp.iOS.csproj",
       "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Monster\\Desktop\\Polygon-Assignment\\MobileUI\\MobileUI.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Monster\\Desktop\\C# Projects\\Polygon-Assignment\\MobileUI\\MobileUI.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1351,8 +1351,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Monster\\Desktop\\Polygon-Assignment\\MobileUI\\MobileUI\\PolygonApp.csproj": {
-              "projectPath": "C:\\Users\\Monster\\Desktop\\Polygon-Assignment\\MobileUI\\MobileUI\\PolygonApp.csproj"
+            "C:\\Users\\Monster\\Desktop\\C# Projects\\Polygon-Assignment\\MobileUI\\MobileUI\\PolygonApp.csproj": {
+              "projectPath": "C:\\Users\\Monster\\Desktop\\C# Projects\\Polygon-Assignment\\MobileUI\\MobileUI\\PolygonApp.csproj"
             }
           }
         }

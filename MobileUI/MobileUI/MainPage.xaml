@@ -13,15 +13,15 @@
         x:Name="main_stackLayout">
         
 
-        <StackLayout>
-            <skia:SKCanvasView Margin="0,0,0,30" x:Name="canvasView" 
-                               PaintSurface="canvasView_PaintSurface" WidthRequest="400" HeightRequest="450" 
+        <StackLayout VerticalOptions="StartAndExpand">
+            <skia:SKCanvasView Margin="0,0,0,10" x:Name="canvasView" 
+                               PaintSurface="canvasView_PaintSurface" WidthRequest="400" HeightRequest="485" 
                                EnableTouchEvents="True" Touch="canvasView_Touch"
                                />
 
         </StackLayout>
         <StackLayout Orientation ="Horizontal"                     
-                     HorizontalOptions="CenterAndExpand">
+                     HorizontalOptions="CenterAndExpand" >
             <Entry x:Name="xCoordinate_entry" Keyboard="Numeric"
                    BackgroundColor="Transparent" PlaceholderColor="Black" TextColor="Black"
                    WidthRequest="150" Placeholder="X:" />
@@ -40,8 +40,14 @@
         <Button x:Name="add_button" BackgroundColor="MediumPurple"  Text="Add" HeightRequest="80" WidthRequest="200" Margin="25,0,25,0" 
                 Clicked="add_button_Clicked" BorderColor="Black" BorderWidth="1"/>
 
-        <Button x:Name="clear_button" BackgroundColor="IndianRed" Text="Clear" HeightRequest="40" WidthRequest="200" Margin="100,0,100,30"
+        <StackLayout Orientation ="Horizontal"
+                     HorizontalOptions="CenterAndExpand">
+            
+            <Button x:Name="undo_button" BackgroundColor="CornflowerBlue" Text="Undo" HeightRequest="40" WidthRequest="120" Margin="0,0,0,10"
+                Clicked="undo_button_Clicked" BorderColor="Black" BorderWidth="1"/>
+            <Button x:Name="clear_button" BackgroundColor="IndianRed" Text="Clear" HeightRequest="40" WidthRequest="120" Margin="0,0,0,10"
                 Clicked="clear_button_Clicked" BorderColor="Black" BorderWidth="1"/>
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>

@@ -3391,11 +3391,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Monster\\Desktop\\Polygon-Assignment\\MobileUI\\MobileUI.Android\\PolygonApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Monster\\Desktop\\C# Projects\\Polygon-Assignment\\MobileUI\\MobileUI.Android\\PolygonApp.Android.csproj",
       "projectName": "MobileUI.Android",
-      "projectPath": "C:\\Users\\Monster\\Desktop\\Polygon-Assignment\\MobileUI\\MobileUI.Android\\PolygonApp.Android.csproj",
+      "projectPath": "C:\\Users\\Monster\\Desktop\\C# Projects\\Polygon-Assignment\\MobileUI\\MobileUI.Android\\PolygonApp.Android.csproj",
       "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Monster\\Desktop\\Polygon-Assignment\\MobileUI\\MobileUI.Android\\obj\\",
+      "outputPath": "C:\\Users\\Monster\\Desktop\\C# Projects\\Polygon-Assignment\\MobileUI\\MobileUI.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -3412,8 +3412,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\Users\\Monster\\Desktop\\Polygon-Assignment\\MobileUI\\MobileUI\\PolygonApp.csproj": {
-              "projectPath": "C:\\Users\\Monster\\Desktop\\Polygon-Assignment\\MobileUI\\MobileUI\\PolygonApp.csproj"
+            "C:\\Users\\Monster\\Desktop\\C# Projects\\Polygon-Assignment\\MobileUI\\MobileUI\\PolygonApp.csproj": {
+              "projectPath": "C:\\Users\\Monster\\Desktop\\C# Projects\\Polygon-Assignment\\MobileUI\\MobileUI\\PolygonApp.csproj"
             }
           }
         }

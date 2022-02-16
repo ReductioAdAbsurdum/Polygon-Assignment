@@ -33,6 +33,15 @@ namespace PolygonApp.Droid.Logic.Backend
         }
 
         /// <summary>
+        /// Removes given vertice from polygon
+        /// </summary>
+        /// <param name="vertice"></param>
+        internal void RemoveVertice(Vector2D vertice) 
+        {
+            vertices.Remove(vertice);
+        }
+
+        /// <summary>
         /// Sort vertices then returns array of them
         /// </summary>
         /// <returns></returns>
