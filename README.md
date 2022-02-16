@@ -24,7 +24,7 @@ GUI me je inspirisao da kreiram validaciju da li je proizvoljan mnogougao konvek
 
 U planu je kreiranje *undo* dugmeta.
 
-Naredni korak je postavka aplikacije na Google GameStore kako bi bila pristušačna svima.
+Naredni korak je postavka aplikacije na Google Play Store kako bi bila pristušačna svima.
 
 
 
