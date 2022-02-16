@@ -19,5 +19,13 @@ Pripremio sam jedan DEMO koji će funkcionisati samo na Widows platformi i veruj
 
 Subota je jutro, i šaljem vam trenutno opisanu verziju koda. Ukoliko mi vreme dopusti narednih dana (do vašeg javljanja) radiću na kodu.
 
+Izmedju ponedeljka i srede (uz pomoć prijatelja) uspeo sam kreirati GUI u Xamarin.Forms.
+GUI me je inspirisao da kreiram validaciju da li je proizvoljan mnogougao konveksan što je odrađeno bez većih poteškoća(doduše na poprilično neefikasan način).
+
+U planu je kreiranje *undo* dugmeta.
+
+Naredni korak je postavka aplikacije na Google GameStore kako bi bila pristušačna svima.
+
+
 
  
